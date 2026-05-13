@@ -1,0 +1,29 @@
+{
+  "doc_path": "C:\\Users\\n.tiunov\\Downloads\\ege17.doc",
+  "answers_xls": "C:\\Users\\n.tiunov\\Downloads\\answers.xls",
+  "solutions_dir": "C:\\Users\\n.tiunov\\Downloads\\17solve",
+  "parsed_tasks_total": 460,
+  "answers_total": 467,
+  "solutions_total": 413,
+  "benchmark_rows": 467,
+  "finetune_rows": 413,
+  "rag_rows": 1,
+  "missing_task_text_count": 7,
+  "missing_task_text_ids_preview": [
+    "17_180",
+    "17_257",
+    "17_258",
+    "17_259",
+    "17_260",
+    "17_261",
+    "17_262"
+  ],
+  "attachments_dir": "C:\\Users\\n.tiunov\\Downloads\\17data",
+  "benchmark_with_attachments": 311,
+  "finetune_with_attachments": 287,
+  "outputs": {
+    "benchmark": "datasets\\generated\\ege17_benchmark.jsonl",
+    "finetune": "datasets\\generated\\ege17_finetune.jsonl",
+    "rag": "datasets\\generated\\ege17_rag_kb.jsonl"
+  }
+}

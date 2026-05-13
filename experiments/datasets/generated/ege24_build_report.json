@@ -1,0 +1,34 @@
+{
+  "doc_path": "C:\\Users\\n.tiunov\\Downloads\\ege24.doc",
+  "answers_xls": "C:\\Users\\n.tiunov\\Downloads\\answers.xls",
+  "solutions_dir": "C:\\Users\\n.tiunov\\Downloads\\24solve",
+  "parsed_tasks_total": 373,
+  "answers_total": 385,
+  "solutions_total": 368,
+  "benchmark_rows": 385,
+  "finetune_rows": 368,
+  "rag_rows": 1,
+  "missing_task_text_count": 12,
+  "missing_task_text_ids_preview": [
+    "24_123",
+    "24_124",
+    "24_125",
+    "24_126",
+    "24_127",
+    "24_128",
+    "24_129",
+    "24_130",
+    "24_131",
+    "24_301",
+    "24_302",
+    "24_303"
+  ],
+  "attachments_dir": "C:\\Users\\n.tiunov\\Downloads\\24data",
+  "benchmark_with_attachments": 292,
+  "finetune_with_attachments": 281,
+  "outputs": {
+    "benchmark": "datasets\\generated\\ege24_benchmark.jsonl",
+    "finetune": "datasets\\generated\\ege24_finetune.jsonl",
+    "rag": "datasets\\generated\\ege24_rag_kb.jsonl"
+  }
+}

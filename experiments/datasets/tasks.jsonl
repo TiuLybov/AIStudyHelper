@@ -1,0 +1,3 @@
+{"id":"math_001","question":"Реши уравнение 2x + 6 = 14","answer":"4"}
+{"id":"math_002","question":"Найди площадь прямоугольника со сторонами 3 и 7","answer":"21"}
+{"id":"file_001","question":"Прочитай файл и верни сумму чисел из него","answer":"15","attachment_path":"datasets/examples/numbers.txt"}

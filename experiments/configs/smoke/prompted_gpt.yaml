@@ -1,0 +1,7 @@
+name: prompted_gpt_smoke
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: prompted_gpt
+dataset_path: datasets/generated/ege_all_benchmark.jsonl
+output_path: results/smoke/prompted_gpt_predictions.jsonl
+max_samples: 20

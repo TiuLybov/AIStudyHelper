@@ -1,0 +1,6 @@
+requests
+pyyaml
+tqdm
+xlrd
+python-docx
+pywin32

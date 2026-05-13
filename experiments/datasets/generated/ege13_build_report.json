@@ -1,0 +1,18 @@
+{
+  "doc_path": "C:\\Users\\n.tiunov\\Downloads\\ege13.doc",
+  "answers_xls": "C:\\Users\\n.tiunov\\Downloads\\answers.xls",
+  "solutions_dir": "C:\\Users\\n.tiunov\\Downloads\\13solve",
+  "parsed_tasks_total": 272,
+  "answers_total": 272,
+  "solutions_total": 128,
+  "benchmark_rows": 272,
+  "finetune_rows": 119,
+  "rag_rows": 3,
+  "missing_task_text_count": 0,
+  "missing_task_text_ids_preview": [],
+  "outputs": {
+    "benchmark": "datasets\\generated\\ege13_benchmark.jsonl",
+    "finetune": "datasets\\generated\\ege13_finetune.jsonl",
+    "rag": "datasets\\generated\\ege13_rag_kb.jsonl"
+  }
+}

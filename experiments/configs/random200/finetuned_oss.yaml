@@ -1,0 +1,16 @@
+name: finetuned_oss_random200
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: finetuned_oss
+dataset_path: datasets/generated/ege_all_benchmark.jsonl
+output_path: results/random200/finetuned_oss_predictions.jsonl
+max_samples: 200
+sample_random: true
+stratified_by_subject: true
+random_seed: 42
+enable_code_exec: true
+exclude_fallback_questions: true
+retry_if_malformed: true
+max_retries: 1
+code_first_subjects: ["14", "16", "17", "23", "24", "25"]
+code_fix_retries: 2
