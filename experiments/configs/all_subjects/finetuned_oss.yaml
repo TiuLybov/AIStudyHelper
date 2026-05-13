@@ -1,0 +1,6 @@
+name: finetuned_oss_all_subjects
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: finetuned_oss
+dataset_path: datasets/generated/ege_all_benchmark.jsonl
+output_path: results/all_subjects/finetuned_oss_predictions.jsonl

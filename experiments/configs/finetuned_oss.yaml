@@ -1,0 +1,6 @@
+name: finetuned_oss
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: finetuned_oss
+dataset_path: datasets/tasks.jsonl
+output_path: results/finetuned_oss_predictions.jsonl

@@ -1,0 +1,26 @@
+[
+  {
+    "experiment": "baseline_gpt",
+    "total": 20,
+    "correct": 2,
+    "accuracy": 0.1
+  },
+  {
+    "experiment": "finetuned_oss",
+    "total": 20,
+    "correct": 0,
+    "accuracy": 0.0
+  },
+  {
+    "experiment": "prompted_gpt",
+    "total": 20,
+    "correct": 1,
+    "accuracy": 0.05
+  },
+  {
+    "experiment": "rag_gpt",
+    "total": 20,
+    "correct": 2,
+    "accuracy": 0.1
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "doc_path": "C:\\Users\\n.tiunov\\Downloads\\ege23.doc",
+  "answers_xls": "C:\\Users\\n.tiunov\\Downloads\\answers.xls",
+  "solutions_dir": "C:\\Users\\n.tiunov\\Downloads\\23solve",
+  "parsed_tasks_total": 354,
+  "answers_total": 360,
+  "solutions_total": 243,
+  "benchmark_rows": 360,
+  "finetune_rows": 243,
+  "rag_rows": 1,
+  "missing_task_text_count": 6,
+  "missing_task_text_ids_preview": [
+    "23_239",
+    "23_240",
+    "23_241",
+    "23_242",
+    "23_258",
+    "23_320"
+  ],
+  "outputs": {
+    "benchmark": "datasets\\generated\\ege23_benchmark.jsonl",
+    "finetune": "datasets\\generated\\ege23_finetune.jsonl",
+    "rag": "datasets\\generated\\ege23_rag_kb.jsonl"
+  }
+}

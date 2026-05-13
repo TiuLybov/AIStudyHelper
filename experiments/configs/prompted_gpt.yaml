@@ -1,0 +1,6 @@
+name: prompted_gpt
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: prompted_gpt
+dataset_path: datasets/tasks.jsonl
+output_path: results/prompted_gpt_predictions.jsonl

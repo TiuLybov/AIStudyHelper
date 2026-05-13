@@ -1,0 +1,6 @@
+name: baseline_gpt_all_subjects
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: baseline_gpt
+dataset_path: datasets/generated/ege_all_benchmark.jsonl
+output_path: results/all_subjects/baseline_gpt_predictions.jsonl

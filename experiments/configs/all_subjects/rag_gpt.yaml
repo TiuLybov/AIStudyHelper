@@ -1,0 +1,6 @@
+name: rag_gpt_all_subjects
+backend_url: http://localhost:8000
+endpoint: /ask-json
+model_variant: rag_gpt
+dataset_path: datasets/generated/ege_all_benchmark.jsonl
+output_path: results/all_subjects/rag_gpt_predictions.jsonl

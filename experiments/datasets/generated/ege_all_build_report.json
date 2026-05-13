@@ -1,0 +1,47 @@
+{
+  "sources": {
+    "benchmark_files": [
+      "datasets\\generated\\ege13_benchmark.jsonl",
+      "datasets\\generated\\ege14_benchmark.jsonl",
+      "datasets\\generated\\ege16_benchmark.jsonl",
+      "datasets\\generated\\ege17_benchmark.jsonl",
+      "datasets\\generated\\ege23_benchmark.jsonl",
+      "datasets\\generated\\ege24_benchmark.jsonl",
+      "datasets\\generated\\ege25_benchmark.jsonl",
+      "datasets\\generated\\ege5_benchmark.jsonl",
+      "datasets\\generated\\ege8_benchmark.jsonl"
+    ],
+    "finetune_files": [
+      "datasets\\generated\\ege13_finetune.jsonl",
+      "datasets\\generated\\ege14_finetune.jsonl",
+      "datasets\\generated\\ege16_finetune.jsonl",
+      "datasets\\generated\\ege17_finetune.jsonl",
+      "datasets\\generated\\ege23_finetune.jsonl",
+      "datasets\\generated\\ege24_finetune.jsonl",
+      "datasets\\generated\\ege25_finetune.jsonl",
+      "datasets\\generated\\ege5_finetune.jsonl",
+      "datasets\\generated\\ege8_finetune.jsonl"
+    ],
+    "rag_files": [
+      "datasets\\generated\\ege13_rag_kb.jsonl",
+      "datasets\\generated\\ege14_rag_kb.jsonl",
+      "datasets\\generated\\ege16_rag_kb.jsonl",
+      "datasets\\generated\\ege17_rag_kb.jsonl",
+      "datasets\\generated\\ege23_rag_kb.jsonl",
+      "datasets\\generated\\ege24_rag_kb.jsonl",
+      "datasets\\generated\\ege25_rag_kb.jsonl",
+      "datasets\\generated\\ege5_rag_kb.jsonl",
+      "datasets\\generated\\ege8_rag_kb.jsonl"
+    ]
+  },
+  "rows": {
+    "benchmark": 3663,
+    "finetune": 2551,
+    "rag": 11
+  },
+  "outputs": {
+    "benchmark": "datasets\\generated\\ege_all_benchmark.jsonl",
+    "finetune": "datasets\\generated\\ege_all_finetune.jsonl",
+    "rag": "datasets\\generated\\ege_all_rag_kb.jsonl"
+  }
+}
