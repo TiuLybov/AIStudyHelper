@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+httpx
+openai
+pydantic
+pydantic-settings
+python-multipart
+scikit-learn
+numpy

@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: ai_tutor_backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./experiments:/app/experiments:ro
+    depends_on:
+      - finetuned-oss
+
+  finetuned-oss:
+    build:
+      context: ./services/finetuned_oss_mock
+    container_name: ai_tutor_finetuned_oss
+    ports:
+      - "8010:8010"
